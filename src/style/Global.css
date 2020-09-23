@@ -13,7 +13,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background-image: url("../UI/images.jpeg");
+    background-image: url("/UI/background.jpeg");
     -webkit-font-smoothing: antialiased;
     color:white;
     text-align: center;

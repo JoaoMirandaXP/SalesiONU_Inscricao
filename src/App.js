@@ -67,7 +67,7 @@ function App() {
         <br/>
         <iframe title="video-secretariado-2"  src="https://www.youtube.com/embed/fsg7hZeVnzU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <br/>
-        <span><a href="mailto:salesionu@gmail.com">salesionu@gmail.com</a></span>
+        <span>Email para contato: <a href="mailto:salesionu@gmail.com">salesionu@gmail.com</a></span>
         </Secretariado>
         
         <Comite id="acnur" className="comites" loc_image="/UI/acnur.png">
@@ -87,7 +87,10 @@ function App() {
         <br/>
         <iframe title  ="acnur-video-2"src="https://www.youtube.com/embed/X1wFLifH14Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <br/>
-        <span><a href="mailto:acnursalesionu2020@gmail.com">acnursalesionu2020@gmail.com</a></span>
+        <div className="roteiros">
+          <p><a href="/files/Guia de Estudos - Imprensa.pdf" download><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a>Clique aqui para baixar o Roteiro de Estudos da Acnur</p>
+        </div>
+        <span>Email para contato: <a href="mailto:acnursalesionu2020@gmail.com">acnursalesionu2020@gmail.com</a></span>
         
         </Comite>
         
@@ -106,7 +109,10 @@ function App() {
           <li>Pedro Mangeon Meirelles Laurentino</li>
         </ul>
         <br/>
-        <span><a href="mailto:csnu2020@gmail.com">csnu2020@gmail.com</a></span>
+        <div className="roteiros">
+          <p><a href="/files/Guia de Estudos - Imprensa.pdf" download><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a>Clique aqui para baixar o Roteiro de Estudos da Csnu</p>
+        </div>
+        <span>Email para contato: <a href="mailto:csnu2020@gmail.com">csnu2020@gmail.com</a></span>
         </Comite>
         
         <Comite className="comites"  id="oms" loc_image="/UI/oms.png">
@@ -129,7 +135,10 @@ function App() {
         <br/>
         <iframe title="oms-video-2"src="https://www.youtube.com/embed/q5DXMr5v48k" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <br/>
-        <span><a href="mailto:salesionuoms2020@gmail.com">salesionuoms2020@gmail.com</a></span>
+        <div className="roteiros">
+          <p><a href="/files/Guia de Estudos - Imprensa.pdf" download><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a>Clique aqui para baixar o Roteiro de Estudos da Oms</p>
+        </div>
+        <span>Email para contato: <a href="mailto:salesionuoms2020@gmail.com">salesionuoms2020@gmail.com</a></span>
 
 
         </Comite>
@@ -146,14 +155,9 @@ function App() {
           <li>Juliana Bernardes Cunha</li>
         </ul>
         <div className="roteiros">
-          <div>
-            <svg viewBox="0 0 16 16">
-              <path d="M13.646 10.879V3.084c0-.473-.298-.788-.78-.788l-7.794.016c-.465 0-.764.34-.764.73 0 .39.34.723.73.723h2.466l3.951-.15-1.502 1.329-7.413 7.429a.733.733 0 00-.232.506c0 .39.348.764.755.764.19 0 .365-.075.515-.224l7.42-7.43 1.337-1.502-.158 3.777v2.648c0 .382.332.73.739.73.39 0 .73-.323.73-.763z"></path>
-            </svg>
-          </div>
-          <p><a href="/files/Guia de Estudos - Imprensa.pdf" download>Roteiro de Estudos Imprensa</a></p>
+          <p><a href="/files/Guia de Estudos - Imprensa.pdf" download><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a>Clique aqui para baixar o Roteiro de Estudos da Imprensa</p>
         </div>
-        <span><a href="mailto:imprensaonu2020">imprensaonu2020</a></span>
+        <span>Email para contato: <a href="mailto:imprensaonu2020@gmail.com">imprensaonu2020@gmail.com</a></span>
 
         </Comite>    
         

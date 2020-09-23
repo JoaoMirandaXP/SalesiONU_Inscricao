@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react'
 import api from './services/Api'
 
 export default function Form(){
-    
-    // const {cpf} = require('cpf-cnpj-validator')
+     
     const [comite,setComite] = useState('')
     const [nome,setNome] = useState('')
-    // const [userCpf,setCpf] = useState('')
     const [email,setEmail] = useState('')
     const [delegacao,setDelegacao]= useState('')
     const [instituicao,setInstituicao]= useState('')
@@ -16,14 +14,26 @@ export default function Form(){
     async function HandleCadastro(e){
         e.preventDefault()
         setPagamento(true)
+        const revisado = window.confirm("Deseja enviar o cadastro?")
+        if(revisado){
         const response = await api.post(`/cadastro/${comite}`,{
             "nome": nome,
             "pagamento": pagamento,
             "email": email,
             "delegacao": delegacao,
             "instituicao": instituicao
-        }) 
+        })
+        if(response !== [] ){
+            alert("Cadastro efetivado com sucesso! Você deverá receber um email de confirmação")
+            window.location.reload()
+        } 
+        else{
+            alert("Hmm parece que essa delegação acabou de ser escolhida... Recarregue a página e tente novamente")
+            window.location.reload()
+
+        }
         console.log(response)
+        }
     }
 
     useEffect(()=>{

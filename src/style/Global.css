@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+html, body, #root {
+     height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("../UI/images.jpeg");
+    -webkit-font-smoothing: antialiased;
+    color:white;
+    text-align: center;
+}
+
+body,input,button{
+    font-family: 'Roboto', sans-serif;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+

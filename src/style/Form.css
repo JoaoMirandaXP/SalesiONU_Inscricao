@@ -1,0 +1,49 @@
+main form {
+    margin-top: 30px;
+    border:2px solid #ACACAC ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+main form .input-block{
+    margin-top: 20px;
+}
+
+main form .input-block label{
+    color: #333;
+    font-size: 14px;
+    display: block;
+    
+}
+
+main form .input-block input{
+    width: 90%;
+    height: 30px;
+    font-size: 14px;
+    border: 0;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+}
+main form .input-block select{
+    width: 90%;
+    height: 30px;
+    font-size: 14px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+main form button[type=submit]{
+    width: 85%;
+    border: 0;
+    margin-top: 30px;
+    padding: 1em;
+    border-radius: 5px;
+    background: #eee;
+    font-size: 1em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+main form button[type="submit"]:hover{
+    background: rgb(197, 197, 197);
+}

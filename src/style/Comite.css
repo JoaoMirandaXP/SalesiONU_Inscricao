@@ -1,0 +1,38 @@
+.comites{
+    max-width: 1200px;
+    margin: 10px auto;
+    color: rgb(32, 32, 32);
+    background-color: white;
+    font-weight: 300;
+    font-size: x-large;    
+    border-radius: 15px; 
+}
+.comites p{
+    margin-top: auto;
+    padding: 10px;
+    text-align: justify;
+}
+.comites ul{
+    list-style: none;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.roteiros{
+    display: flex;
+    flex-direction: row;
+}
+.roteiros div{
+    margin-right: 2px; 
+    margin-left: -2px;
+}
+.roteiros div svg{
+    width: 1em; 
+    height: 1em; 
+    display: block; 
+    fill: inherit; 
+    flex-shrink: 0; 
+    backface-visibility: hidden;
+}
+
